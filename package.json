@@ -7,6 +7,8 @@
     "backend": "nodemon backend/server.js",
     "frontend": "npm run dev --prefix frontend"
   },
+  "predeploy": "npm run frontend",
+  "deploy": "gh-pages -d dist",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,5 +22,8 @@
     "mongoose": "^9.11.2",
     "nodemon": "^3.1.14",
     "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
