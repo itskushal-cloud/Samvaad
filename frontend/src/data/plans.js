@@ -23,7 +23,7 @@ export const PLANS = [
     tagline: 'A little guidance, every month.',
     features: [
       '2 therapist check-ins a month',
-      '15 minutes each, with a trainee therapist',
+      '60 minutes each, with a trainee therapist',
       'Everything in Community',
     ],
   },
@@ -36,7 +36,7 @@ export const PLANS = [
     tagline: 'A regular rhythm of support.',
     features: [
       'A therapist check-in every week',
-      '15 minutes each, with a trainee therapist',
+      '60 minutes each, with a trainee therapist',
       'Everything in Community',
     ],
   },

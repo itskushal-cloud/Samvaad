@@ -6,7 +6,7 @@ const OPTIONS = [
     icon: 'chat',
     tone: 'sage',
     title: 'Therapist check-ins',
-    text: "Make space for what's on your mind through focused 15-minute messaging or voice-note check-ins.",
+    text: "Make space for what's on your mind through focused 60-minute messaging or voice-note check-ins.",
     cta: 'Explore check-ins',
   },
   {

@@ -45,7 +45,7 @@ function Hero() {
             )}
           </div>
           <div className="hero-note">
-            <strong>15-minute check-ins</strong>
+            <strong>60-minute check-ins</strong>
             <span>Support, at your own pace.</span>
           </div>
         </div>

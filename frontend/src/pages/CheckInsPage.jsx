@@ -33,7 +33,7 @@ function CheckInsPage() {
     <>
       <div className="page-head">
         <h1>Therapist check-ins</h1>
-        <p>Short 15-minute conversations with trainee therapists. Take a look at who they are and how they are supervised.</p>
+        <p>Short 60-minute conversations with trainee therapists. Take a look at who they are and how they are supervised.</p>
       </div>
 
       {!hasPlanSessions && (

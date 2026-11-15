@@ -31,7 +31,7 @@ function DashboardPage() {
           <h2>Therapist check-ins</h2>
           <p>
             {total > 0
-              ? 'Browse trainee therapists, see how they are supervised, and pick a short 15-minute check-in.'
+              ? 'Browse trainee therapists, see how they are supervised, and pick a short 60-minute check-in.'
               : 'Check-ins are part of the Support and Steady plans. You can still meet our trainee therapists.'}
           </p>
           <Link className="text-link" to="/app/check-ins">Browse check-ins</Link>

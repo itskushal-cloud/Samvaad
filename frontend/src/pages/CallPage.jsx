@@ -4,7 +4,7 @@ import Icon from '../component/Icon'
 import { useAuth } from '../context/AuthContext'
 import { THERAPISTS } from '../data/demoData'
 
-const CALL_SECONDS = 15 * 60
+const CALL_SECONDS = 60 * 60
 
 /* Opens the visitor's own camera and mic. Nothing is sent anywhere. */
 function useLocalMedia() {
@@ -147,7 +147,7 @@ function CallPage() {
     <>
       <div className="call-stage">
         <span className="call-timer">
-          {secondsLeft > 0 ? `${formatTime(secondsLeft)} left` : "Your 15 minutes are up"}
+          {secondsLeft > 0 ? `${formatTime(secondsLeft)} left` : "Your 60 minutes are up"}
         </span>
 
         <div className="call-remote">
